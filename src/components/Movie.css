@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containerMovie {
+    width: 80%;
+    min-height: 200px;
+    border-radius: 12px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerMovie h4 {
+    display: none;
+    z-index: 2;
+}
+
+.containerMovie img {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.containerMovie:hover {
+    width: 95%;
+    min-height: 300px;
+    box-shadow: 10px 10px rgba(255, 255, 255, 1);
+}
+
+.containerMovie:hover h4 {
+    display: block;
+    text-shadow: 10px 10px rgba(0, 0, 0, 1);
+}

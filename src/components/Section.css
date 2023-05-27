@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containerSection {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.leftList {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.movieList {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightBox {
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+.rightBox img {
+    width: 95%;
+}
