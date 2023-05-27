@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/videowebsite/static/css/main.dd14e5ff.css",
+    "main.js": "/videowebsite/static/js/main.11091653.js",
+    "static/js/787.baa1f21c.chunk.js": "/videowebsite/static/js/787.baa1f21c.chunk.js",
+    "static/media/starwars.png": "/videowebsite/static/media/starwars.d0b046164f1449ce1853.png",
+    "static/media/apocalypto.jpeg": "/videowebsite/static/media/apocalypto.2ad7de6a7dbf90083702.jpeg",
+    "static/media/lotr1.jpg": "/videowebsite/static/media/lotr1.d5963ee63d300fca4418.jpg",
+    "static/media/narnia.webp": "/videowebsite/static/media/narnia.36c3cb06bc2d515722bf.webp",
+    "static/media/marvel.webp": "/videowebsite/static/media/marvel.6e29e92e0f7b881da483.webp",
+    "static/media/harry.webp": "/videowebsite/static/media/harry.71a2f1245ce388f5f45c.webp",
+    "index.html": "/videowebsite/index.html",
+    "main.dd14e5ff.css.map": "/videowebsite/static/css/main.dd14e5ff.css.map",
+    "main.11091653.js.map": "/videowebsite/static/js/main.11091653.js.map",
+    "787.baa1f21c.chunk.js.map": "/videowebsite/static/js/787.baa1f21c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd14e5ff.css",
+    "static/js/main.11091653.js"
+  ]
+}
