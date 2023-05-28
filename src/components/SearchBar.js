@@ -9,7 +9,13 @@ function SearchBar({ setResults }){
     const [input, setInput] = useState("");
 
   const fetchData = (value) => {
-    fetch("http://127.0.0.1:3000/src/data/movies.json")
+    fetch("https://jsonplaceholder.typicode.com/users", {
+                method: 'GET',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                }
+            })
       .then((response) => response.json())
       .then((json) => {
         const results = json.filter((user) => {
