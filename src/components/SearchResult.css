@@ -1,0 +1,7 @@
+.searchResultContainer {
+    padding: 10px 20px;
+}
+
+.searchResultContainer:hover {
+    background-color: #efefef;
+}

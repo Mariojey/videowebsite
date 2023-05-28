@@ -1,0 +1,35 @@
+.resultListContainer {
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 8px #ddd;
+    border-radius: 10px;
+    margin-top: 1rem;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 1;
+}
+
+.resultListContainer::-webkit-scrollbar {
+    width: 5px;
+    padding: 0;
+    background-color: #000;
+}
+
+.resultListContainer::-webkit-scrollbar-track {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.resultListContainer::-webkit-scrollbar-thumb {
+    width: 3px;
+    background-color: rgba(128, 128, 128, 0.3);
+    border-radius: 3px;
+}
+
+.resultListContainer::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(128, 128, 128, 0.7);
+}

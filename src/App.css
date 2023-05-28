@@ -9,3 +9,25 @@
     flex-direction: column;
     text-align: center;
 }
+
+.App::-webkit-scrollbar {
+    width: 5px;
+    padding: 0;
+}
+
+.App::-webkit-scrollbar-track {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.App::-webkit-scrollbar-thumb {
+    width: 3px;
+    background-color: rgba(128, 128, 128, 0.3);
+    border-radius: 3px;
+}
+
+.App::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(128, 128, 128, 0.7);
+}

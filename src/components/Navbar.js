@@ -5,7 +5,7 @@ function Navbar() {
 
     useEffect(() => {
         const handleScroll = () => {
-            setSticky(window.scrollY > 200);
+            setSticky(window.scrollY > 100);
             console.log(window.scrollY);
         };
         window.addEventListener("scroll", handleScroll);
@@ -29,7 +29,7 @@ function Navbar() {
                         <span className="border"></span>
 
                     </a>
-                    <a href="#home" className="navLink">
+                    <a href="#search" className="navLink">
                         <li className="navItem">Search</li>
                         <span className="border"></span>
 

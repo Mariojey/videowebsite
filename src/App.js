@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import Section from './components/Section';
+import SearchSection from './components/SearchSection';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
 
       }
       <Header />
-      
+      <SearchSection />
     </div>
   );
 }

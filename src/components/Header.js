@@ -26,6 +26,29 @@ function Header() {
         setBackgroundStyle(`backgroundSlider background${event.target.id}`)
         
     }
+    /*
+    let i = 0
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            let table = [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+            ]
+            console.log(i);
+            table[i] = true;
+            setActives(table)
+            console.log(actives);
+            i >= 6 ? i = 0 : i++;
+        }, 3000)
+        return () => {
+            clearInterval(intervalId)
+        }
+    }, [])
+    */
   return (
     <div className="containerHeader">
        <Navbar />

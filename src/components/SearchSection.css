@@ -1,0 +1,19 @@
+.searchSectionContainer {
+    width: 100%;
+    min-height: 100vh;
+    background: transparent;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.video {
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+    z-index: -1;
+}

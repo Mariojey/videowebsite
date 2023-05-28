@@ -1,0 +1,24 @@
+.searchBarContainer {
+    width: 80%;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: left;
+    z-index: 1;
+}
+
+#search-icon {
+    color: white;
+    font-size: 30px;
+    margin-right: 3%;
+}
+
+.searchBarContainer input {
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    padding: 12px;
+}
