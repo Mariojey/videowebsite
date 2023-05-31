@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header';
 import Section from './components/Section';
 import SearchSection from './components/SearchSection';
+import ContactForm from './components/Contact';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
       }
       <Header />
       <SearchSection />
+      {//<Section />
+}
+      <ContactForm />
     </div>
   );
 }

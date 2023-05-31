@@ -2,10 +2,8 @@ import React from "react";
 import './Movie.css'
 
 function Movie(props){
-    console.log(props);
-    <div className="containerMovie">
-        <img src={`/photos/${props.backgroundImage}`} alt="Main theme photo" />
-        <h4>{props.title}</h4>
+    console.log(props.props.id);
+    <div className={`containerMovie background0${props.props.id}`}>
     </div>
 
 }

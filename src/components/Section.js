@@ -1,31 +1,68 @@
 import React, { useState } from "react";
 import './Section.css';
-import movies from "../data/movies";
 import Movie from "./Movie";
 
-function Section(){
+import Slider from "react-slick";
 
+import recommended from "../data/recommended";
 
-    const [display, setDisplay] = useState(movies[0])
+function Section() {
 
-    return(
-        <div className="contaierSection">
-            <div className="leftList">
+    /*
+    const recommendedMovies = recommended.map((movie) => {
+        return <Movie key={movie.id} props={movie}/>
+    })
+    */
+
+    let settings = {
+        dots: true,
+          infinite: false,
+          speed: 500,
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          initialSlide: 0,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+        };
+    
+
+    return (
+        <div className="containerSection">
                 <p>Recomended for you</p>
                 <div className="movieList">
 
-                    <Movie props={movies[0]}/>
-                    <Movie props={movies[1]}/>
-                    <Movie props={movies[2]}/>
-                    <Movie props={movies[3]}/>
-                    <Movie props={movies[4]}/>
-                    <Movie props={movies[5]}/>
+                    <Slider {...settings}>
+                        <Movie props={recommended[0]}/>
+                        <Movie props={recommended[1]}/>
+                        <Movie props={recommended[2]}/>
+                        <Movie props={recommended[3]}/>
+                    </Slider>
 
                 </div>
-            </div>
-            <div className="rightBox">
-                <img src={`/photos/${display.backgroundImage}`} alt="Main Theme Image" />
-            </div>
         </div>
     )
 }

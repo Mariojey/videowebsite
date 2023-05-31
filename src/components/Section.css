@@ -6,29 +6,20 @@
 
 .containerSection {
     display: flex;
-    flex-direction: row;
-    width: 100vw;
-    height: 100vh;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #15003d;
 }
 
-.leftList {
-    width: 20%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+.containerSection p {
+    font-size: large;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1.5px;
 }
 
 .movieList {
     display: flex;
-    flex-direction: column;
-}
-
-.rightBox {
-    width: 80%;
-    height: 100%;
-    display: flex;
-}
-
-.rightBox img {
-    width: 95%;
+    flex-direction: row;
 }
