@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/videowebsite/static/css/main.9025834d.css",
-    "main.js": "/videowebsite/static/js/main.13fcbd82.js",
+    "main.css": "/videowebsite/static/css/main.6dba6a9a.css",
+    "main.js": "/videowebsite/static/js/main.487b6203.js",
     "static/js/787.baa1f21c.chunk.js": "/videowebsite/static/js/787.baa1f21c.chunk.js",
     "static/media/movie.mp4": "/videowebsite/static/media/movie.e3d9815c204ca4563bce.mp4",
     "static/media/starwars.png": "/videowebsite/static/media/starwars.d0b046164f1449ce1853.png",
@@ -15,12 +15,12 @@
     "static/media/marvel.webp": "/videowebsite/static/media/marvel.6e29e92e0f7b881da483.webp",
     "static/media/harry.webp": "/videowebsite/static/media/harry.71a2f1245ce388f5f45c.webp",
     "index.html": "/videowebsite/index.html",
-    "main.9025834d.css.map": "/videowebsite/static/css/main.9025834d.css.map",
-    "main.13fcbd82.js.map": "/videowebsite/static/js/main.13fcbd82.js.map",
+    "main.6dba6a9a.css.map": "/videowebsite/static/css/main.6dba6a9a.css.map",
+    "main.487b6203.js.map": "/videowebsite/static/js/main.487b6203.js.map",
     "787.baa1f21c.chunk.js.map": "/videowebsite/static/js/787.baa1f21c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9025834d.css",
-    "static/js/main.13fcbd82.js"
+    "static/css/main.6dba6a9a.css",
+    "static/js/main.487b6203.js"
   ]
 }
