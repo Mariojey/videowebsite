@@ -20,8 +20,7 @@ function App() {
       }
       <Header />
       <SearchSection />
-      {//<Section />
-}
+      <Section />
       <ContactForm />
     </div>
   );

@@ -12,6 +12,13 @@
     background-color: #15003d;
 }
 
+.containerSection h4 {
+    margin-top: 10px;
+    color: white;
+    font-size: x-large;
+    letter-spacing: 1px;
+}
+
 .containerSection p {
     font-size: large;
     color: white;
@@ -22,4 +29,5 @@
 .movieList {
     display: flex;
     flex-direction: row;
+    border: 2px solid green;
 }

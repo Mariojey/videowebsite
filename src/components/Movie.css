@@ -5,9 +5,9 @@
 }
 
 .containerMovie {
-    width: 80%;
+    width: 100px;
     min-height: 200px;
-    border: 2px solid green;
+    border: 2px solid red;
     border-radius: 12px;
     text-align: center;
     align-items: center;
@@ -21,17 +21,17 @@
 }
 
 .background00 {
-    background-image: url('../assets/01.jpg');
+    background-image: url('/public/photos/01.jpg');
 }
 
 .background01 {
-    background-image: url('../assets/02.jpg');
+    background-image: url('/public/photos/01.jpg');
 }
 
 .background02 {
-    background-image: url('../assets/03.jpg');
+    background-image: url('/public/photos/01.jpg');
 }
 
 .background03 {
-    background-image: url('../assets/04.jpg');
+    background-image: url('/public/photos/01.jpg');
 }

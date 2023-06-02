@@ -10,7 +10,7 @@ function SearchSection(){
     return(
 
         <div id="search" className="searchSectionContainer">
-                <video src={video} className="video" autoPlay loop muted poster="/public/photos/cinema.jpg" />
+                <video src={video} className="video" autoPlay loop muted poster="cinema.jpg" />
 
                 <SearchBar setResults={setResults} />
                 {results && results.length > 0 && <SearchResultList results={results} />}

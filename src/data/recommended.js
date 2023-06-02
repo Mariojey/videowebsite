@@ -19,4 +19,15 @@ export default [{
         backgroundImage: `04.jpg`,
         title: 'Mulan',
     },
+    {
+        id: 4,
+        backgroundImage: '03.jpg',
+        title: 'Sonic The Hedgehog',
+
+    },
+    {
+        id: 5,
+        backgroundImage: '01.jpg',
+        title: 'Ghostbusters',
+    },
 ]
