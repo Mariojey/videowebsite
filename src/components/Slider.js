@@ -16,9 +16,9 @@ function Slider({data}) {
     ]
 
     let stylesArray = [
-        ['containerSlide background00'],
-        ['containerSlide background01'],
-        ['containerSlide background02']
+        [`containerSlide background${data[0].classSuffix}0`],
+        [`containerSlide background${data[1].classSuffix}1`],
+        [`containerSlide background${data[2].classSuffix}2`]
     ]
     const [slides, setSlides] = useState(dataArray)
     
@@ -31,15 +31,12 @@ function Slider({data}) {
         activeTable[event.target.id] = true
         setActives(activeTable)
         let stylesArrayToSet = [
-            [`containerSlide background0${3*event.target.id}`],
-            [`containerSlide background0${3*event.target.id + 1}`],
-            [`containerSlide background0${3*event.target.id + 2}`]
+            [`containerSlide background${data[0].classSuffix}${3*event.target.id}`],
+            [`containerSlide background${data[1].classSuffix}${3*event.target.id + 1}`],
+            [`containerSlide background${data[2].classSuffix}${3*event.target.id + 2}`]
         ]
         setStyles(stylesArrayToSet)
         setSlides(arrayToSet)
-        console.log(actives);
-        console.log(styles);
-        console.log(event.target.id);
     }
     
 

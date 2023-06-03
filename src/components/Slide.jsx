@@ -3,8 +3,6 @@ import './Slide.css'
 
 function Slide({props}){
 
-    console.log(props)
-    console.log((props.styles).toString());
     return(
         <div className={(props.styles).toString()}>
 

@@ -1,0 +1,90 @@
+.containerSliderPresentation {
+    width: 100%;
+    height: 125vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    transition: 800ms ease-in-out;
+}
+
+.divPagination {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.paginationDivItem {
+    width: 20vw;
+    height: 25vh;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-top: 5px;
+    background-size: cover;
+    transition: 500ms;
+    margin-bottom: 10px;
+}
+
+.sliderPresentationTextContentContainer {
+    display: flex;
+    width: 75%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.sliderPresentationTextContent {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.sliderPresentationTextContent h2 {
+    font-size: 160px;
+    transition: 500ms ease-in-out;
+}
+
+.presButtonRed {
+    margin-top: 30px;
+    background-color: brown;
+    border: none;
+    color: white;
+    border-radius: 19px;
+    padding: 19px 50px 19px 50px;
+    cursor: pointer;
+    transition: 400ms ease-in-out;
+}
+
+.presButtonRed:hover {
+    background-color: red;
+}
+
+.paginationDivItem:hover {
+    width: 22vw;
+    height: 27vh;
+}
+
+.background0000 {
+    background-image: url('/public/photos/0001.jpg');
+}
+
+.background0001 {
+    background-image: url('/public/photos/0002.jpg');
+}
+
+.background0002 {
+    background-image: url('/public/photos/0003.jpg');
+}
+
+.background0003 {
+    background-image: url('/public/photos/0004.jpg');
+}
+
+.background0004 {
+    background-image: url('/public/photos/0005.jpg');
+}

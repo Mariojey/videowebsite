@@ -65,9 +65,33 @@
 }
 
 .background04 {
-    background-image: url('/public/photos/01.jpg');
+    background-image: url('/public/photos/05.jpg');
 }
 
 .background05 {
-    background-image: url('/public/photos/02.jpg');
+    background-image: url('/public/photos/06.jpg');
+}
+
+.background000 {
+    background-image: url('/public/photos/001.jpg');
+}
+
+.background001 {
+    background-image: url('/public/photos/002.jpg');
+}
+
+.background002 {
+    background-image: url('/public/photos/003.jpg');
+}
+
+.background003 {
+    background-image: url('/public/photos/004.jpg');
+}
+
+.background004 {
+    background-image: url('/public/photos/005.jpg');
+}
+
+.background005 {
+    background-image: url('/public/photos/006.jpg');
 }
