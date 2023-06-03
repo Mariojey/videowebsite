@@ -1,26 +1,39 @@
 {
   "files": {
-    "main.css": "/videowebsite/static/css/main.6dba6a9a.css",
-    "main.js": "/videowebsite/static/js/main.487b6203.js",
+    "main.css": "/videowebsite/static/css/main.088c7cf1.css",
+    "main.js": "/videowebsite/static/js/main.6ba3ec03.js",
     "static/js/787.baa1f21c.chunk.js": "/videowebsite/static/js/787.baa1f21c.chunk.js",
     "static/media/movie.mp4": "/videowebsite/static/media/movie.e3d9815c204ca4563bce.mp4",
     "static/media/starwars.png": "/videowebsite/static/media/starwars.d0b046164f1449ce1853.png",
+    "static/media/0005.jpg": "/videowebsite/static/media/0005.653d4b43ffea3e6dc050.jpg",
+    "static/media/005.jpg": "/videowebsite/static/media/005.f34a62a6427e4565c240.jpg",
+    "static/media/004.jpg": "/videowebsite/static/media/004.9ac82edb2b41a4a43b4c.jpg",
+    "static/media/006.jpg": "/videowebsite/static/media/006.38343192532129ebc5f2.jpg",
     "static/media/apocalypto.jpeg": "/videowebsite/static/media/apocalypto.2ad7de6a7dbf90083702.jpeg",
     "static/media/03.jpg": "/videowebsite/static/media/03.91ba0fe195fad4c4da01.jpg",
+    "static/media/06.jpg": "/videowebsite/static/media/06.01d073ef98f9448a218c.jpg",
+    "static/media/003.jpg": "/videowebsite/static/media/003.3634e2d74a2ba4b2dd7c.jpg",
     "static/media/04.jpg": "/videowebsite/static/media/04.d4ae3fe1049417066649.jpg",
+    "static/media/0001.jpg": "/videowebsite/static/media/0001.e22c6d51e40086ec3d11.jpg",
     "static/media/01.jpg": "/videowebsite/static/media/01.45d52d949afb4cd05aad.jpg",
+    "static/media/002.jpg": "/videowebsite/static/media/002.cf78c3094a9c697702ef.jpg",
+    "static/media/001.jpg": "/videowebsite/static/media/001.8d1b98e76e8c2079e58e.jpg",
+    "static/media/05.jpg": "/videowebsite/static/media/05.26ea99b29b0a28be9f9f.jpg",
+    "static/media/0002.jpg": "/videowebsite/static/media/0002.4d787f2ebe11f90754cc.jpg",
     "static/media/02.jpg": "/videowebsite/static/media/02.d8f0f9f49bf5ee083fac.jpg",
     "static/media/lotr1.jpg": "/videowebsite/static/media/lotr1.d5963ee63d300fca4418.jpg",
     "static/media/narnia.webp": "/videowebsite/static/media/narnia.36c3cb06bc2d515722bf.webp",
+    "static/media/0004.jpg": "/videowebsite/static/media/0004.ceffb843aa7b6df40180.jpg",
     "static/media/marvel.webp": "/videowebsite/static/media/marvel.6e29e92e0f7b881da483.webp",
     "static/media/harry.webp": "/videowebsite/static/media/harry.71a2f1245ce388f5f45c.webp",
+    "static/media/0003.jpg": "/videowebsite/static/media/0003.1811e7b12010e3b816f5.jpg",
     "index.html": "/videowebsite/index.html",
-    "main.6dba6a9a.css.map": "/videowebsite/static/css/main.6dba6a9a.css.map",
-    "main.487b6203.js.map": "/videowebsite/static/js/main.487b6203.js.map",
+    "main.088c7cf1.css.map": "/videowebsite/static/css/main.088c7cf1.css.map",
+    "main.6ba3ec03.js.map": "/videowebsite/static/js/main.6ba3ec03.js.map",
     "787.baa1f21c.chunk.js.map": "/videowebsite/static/js/787.baa1f21c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dba6a9a.css",
-    "static/js/main.487b6203.js"
+    "static/css/main.088c7cf1.css",
+    "static/js/main.6ba3ec03.js"
   ]
 }
